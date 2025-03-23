@@ -1,0 +1,152 @@
+/* src/components/Contact.css */
+.contact {
+    padding: 60px;
+    color: #ecf0f1;
+    text-align: left;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #1A1E23;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #bdc3c7;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ecf0f1;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2C3E50;
+    color: #ecf0f1;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #3498db;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #2980b9;
+}
+.contact button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #3498db; /* Base background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: #ecf0f1; /* Text color */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and transform */
+}
+
+.contact button:hover {
+    background-color: #2980b9; /* Darker background on hover */
+}
+
+.contact button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0px 0px 5px #3498db; /* Add glow effect on focus */
+    transform: scale(1.05); /* Slightly enlarge button on focus */
+}
+
+.contact button:active {
+    background-color: #1f6d99; /* Even darker background on active (click) */
+    transform: scale(0.95); /* Slightly shrink button when pressed */
+}
+.contact input[type="submit"] {
+    padding: 10px 20px;
+    /* Padding for button */
+    background-color: #3498db;
+    /* Base background color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    color: #ecf0f1;
+    /* Text color */
+    font-size: 1.2rem;
+    /* Font size */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transition */
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #2980b9;
+    /* Darker background on hover */
+}
+
+.contact input[type="submit"]:focus {
+    outline: none;
+    /* Remove default outline */
+    box-shadow: 0px 0px 5px #3498db;
+    /* Add glow effect on focus */
+    transform: scale(1.05);
+    /* Slightly enlarge button on focus */
+}
+
+.contact input[type="submit"]:active {
+    background-color: #1f6d99;
+    /* Even darker background on active (click) */
+    transform: scale(0.95);
+    /* Slightly shrink button when pressed */
+}

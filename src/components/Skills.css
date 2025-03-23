@@ -1,0 +1,47 @@
+/* src/components/Skills.css */
+.skills {
+    padding: 50px;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.skills h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.skills p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+}
+.skills h6 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    background: #2c3e50;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.skill h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1.1rem;
+}
